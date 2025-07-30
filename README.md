@@ -1,29 +1,31 @@
-# saa-soft
+# Account Management Form
+This application implements an account management form using Vue 3 with the Composition API and TypeScript.  
+State management is handled using Pinia.
 
-This template should help get you started developing with Vue 3 in Vite.
+The main purpose of the app is to create, edit, and delete user accounts with validation and local state persistence.
 
-## Recommended IDE Setup
+## Tech Stack
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Vue 3 with Composition API  
+- TypeScript  
+- Pinia 
+- Bootstrap
+## Features
 
-## Customize configuration
+- Adding a new account.  
+- Deleting an account.  
+- Editing account fields.  
+- Validation of required fields.  
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+All data is stored in Pinia and persists between page reloads.
 
-## Project Setup
-
-```sh
+## Setup
+Clone the repository using `git clone` and navigate to the project folder.  
+Install dependencies:
+```bash
 npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
+Run the development server:
+```bash
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
 ```
